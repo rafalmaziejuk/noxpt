@@ -1,0 +1,14 @@
+set(NOXPT_SRCS
+	${CMAKE_CURRENT_SOURCE_DIR}/application.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/application.h
+	${CMAKE_CURRENT_SOURCE_DIR}/bvh.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/bvh.h
+	${CMAKE_CURRENT_SOURCE_DIR}/kernel_types.h
+	${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/path_tracer.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/path_tracer.h
+	${CMAKE_CURRENT_SOURCE_DIR}/scene.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/scene.h
+)
+
+target_sources(noxpt PRIVATE ${NOXPT_SRCS})

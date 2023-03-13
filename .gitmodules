@@ -1,0 +1,3 @@
+[submodule "third_party/nox"]
+	path = third_party/nox
+	url = https://github.com/rafalmaziejuk/nox-thesis
